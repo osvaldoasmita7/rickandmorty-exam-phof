@@ -9,7 +9,7 @@ export const useCharacters = () => {
 
     for (const [key, value] of Object.entries(filters)) {
       if (value !== undefined && value !== null) {
-        queryObj[key] = String(value); // convertir número a string
+        queryObj[key + "_like"] = String(value); // convertir número a string
       }
     }
 
@@ -17,13 +17,11 @@ export const useCharacters = () => {
   }
   const getAllCharacters = async (filters?: CharacterFilter | undefined) => {
     try {
-      debugger;
       const params = toQueryParams(filters);
       const url = `${API}/characters?${params}`;
       const res = await fetch(url);
       const response = await res.json();
-      debugger;
-      return response?.data?.results || [];
+      return response?.data?.results || (response.length && response) || [];
     } catch (error) {
       throw error;
     }

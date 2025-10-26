@@ -377,7 +377,8 @@
   order: 2;
 }
 .container-size {
-  height: 300px;
+  height: auto;
+  max-height: 450px;
 }
 .mb-2 {
   margin-bottom: 20px;
