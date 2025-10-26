@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1761510848313" clover="3.2.0">
+  <project timestamp="1761510848313" name="All files">
+    <metrics statements="186" coveredstatements="176" conditionals="61" coveredconditionals="48" methods="55" coveredmethods="39" elements="302" coveredelements="263" complexity="0" loc="186" ncloc="186" packages="14" files="35" classes="35"/>
+    <package name="app">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="page.tsx" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\page.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.components">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\index.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
+        <line num="7" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.components.ChangeCharacters">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="ChangeCharacters.tsx" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\ChangeCharacters\ChangeCharacters.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\ChangeCharacters\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.components.CharacterCard">
+      <metrics statements="16" coveredstatements="15" conditionals="5" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <file name="CharacterCard.tsx" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\CharacterCard\CharacterCard.tsx">
+        <metrics statements="15" coveredstatements="14" conditionals="5" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="4" type="cond" truecount="0" falsecount="1"/>
+        <line num="19" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\CharacterCard\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.components.CharacterPresentation">
+      <metrics statements="12" coveredstatements="12" conditionals="14" coveredconditionals="10" methods="3" coveredmethods="3"/>
+      <file name="CharacterPresentation.tsx" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\CharacterPresentation\CharacterPresentation.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="7" count="9" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+      </file>
+      <file name="DataPresentation.tsx" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\CharacterPresentation\DataPresentation.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="9" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="7" count="8" type="cond" truecount="0" falsecount="1"/>
+        <line num="9" count="2" type="stmt"/>
+      </file>
+      <file name="StatusCharacter.tsx" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\CharacterPresentation\StatusCharacter.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="8" type="cond" truecount="0" falsecount="1"/>
+      </file>
+      <file name="index.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\CharacterPresentation\index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.components.FavoritesTab">
+      <metrics statements="6" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <file name="FavoritesTab.tsx" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\FavoritesTab\FavoritesTab.tsx">
+        <metrics statements="5" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\FavoritesTab\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.components.Form">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Form.tsx" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\Form\Form.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="9" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\Form\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.components.General">
+      <metrics statements="17" coveredstatements="15" conditionals="3" coveredconditionals="2" methods="7" coveredmethods="4"/>
+      <file name="InputSearch.tsx" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\General\InputSearch.tsx">
+        <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="LikeButton.tsx" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\General\LikeButton.tsx">
+        <metrics statements="4" coveredstatements="3" conditionals="3" coveredconditionals="2" methods="3" coveredmethods="2"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="6" count="9" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="Logo.tsx" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\General\Logo.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\General\index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.components.Scroll">
+      <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="Scroll.tsx" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\Scroll\Scroll.tsx">
+        <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\components\Scroll\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.constants">
+      <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="api.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\constants\api.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="14" type="stmt"/>
+      </file>
+      <file name="character.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\constants\character.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="6" count="32" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="21" count="14" type="stmt"/>
+        <line num="22" count="19" type="stmt"/>
+      </file>
+      <file name="containers.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\constants\containers.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="14" type="stmt"/>
+      </file>
+      <file name="general.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\constants\general.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="14" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\constants\index.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+      </file>
+      <file name="scroll.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\constants\scroll.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.contexts">
+      <metrics statements="45" coveredstatements="45" conditionals="20" coveredconditionals="20" methods="23" coveredmethods="14"/>
+      <file name="character.context.tsx" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\contexts\character.context.tsx">
+        <metrics statements="44" coveredstatements="44" conditionals="20" coveredconditionals="20" methods="23" coveredmethods="14"/>
+        <line num="2" count="13" type="stmt"/>
+        <line num="4" count="13" type="stmt"/>
+        <line num="6" count="13" type="stmt"/>
+        <line num="11" count="13" type="stmt"/>
+        <line num="13" count="40" type="stmt"/>
+        <line num="28" count="13" type="stmt"/>
+        <line num="29" count="21" type="stmt"/>
+        <line num="30" count="21" type="stmt"/>
+        <line num="32" count="21" type="stmt"/>
+        <line num="33" count="21" type="stmt"/>
+        <line num="34" count="21" type="stmt"/>
+        <line num="36" count="21" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="42" count="21" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="55" count="21" type="stmt"/>
+        <line num="56" count="3" type="stmt"/>
+        <line num="57" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="21" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="62" count="21" type="stmt"/>
+        <line num="63" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="64" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="65" count="6" type="stmt"/>
+        <line num="66" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="71" count="2" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="77" count="21" type="stmt"/>
+        <line num="78" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="79" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="80" count="6" type="stmt"/>
+        <line num="81" count="3" type="cond" truecount="5" falsecount="0"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="89" count="21" type="stmt"/>
+        <line num="90" count="21" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\contexts\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.enums">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="characters.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\enums\characters.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="17" count="12" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\enums\index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="2" count="12" type="stmt"/>
+      </file>
+      <file name="scroll.enum.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\enums\scroll.enum.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.exam">
+      <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="page.tsx" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\exam\page.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.hooks">
+      <metrics statements="29" coveredstatements="25" conditionals="14" coveredconditionals="8" methods="5" coveredmethods="4"/>
+      <file name="index.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\hooks\index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="2" count="12" type="stmt"/>
+      </file>
+      <file name="useCharacters.ts" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\hooks\useCharacters.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="10" coveredconditionals="8" methods="3" coveredmethods="3"/>
+        <line num="2" count="13" type="stmt"/>
+        <line num="4" count="13" type="stmt"/>
+        <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+      </file>
+      <file name="useScroll.tsx" path="C:\Users\osval\OneDrive\Escritorio\next\rickandmorty\app\hooks\useScroll.tsx">
+        <metrics statements="10" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="5" count="12" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
