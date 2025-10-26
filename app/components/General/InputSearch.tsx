@@ -15,7 +15,7 @@ export const InputSearch = () => {
           data-testid="search"
           type="text"
           placeholder="Find your character..."
-          onKeyDown={(event) => searchCharacters(event.currentTarget.value)}
+          onChange={(event) => searchCharacters(event.currentTarget.value)}
         />
       </div>
     </div>

@@ -5,9 +5,11 @@ const JSONServer = await import("json-server").then(mod => mod.default);
 const {getCharacters} = await import("rickmortyapi").then(mod => mod.default);
 
 
-  const characters = await getCharacters({});
+  const charactersResponse  = await getCharacters({});
 
-  const data = { characters };
+  const data = {
+    characters: charactersResponse?.data?.results || [],
+  };
 
   const server = JSONServer.create();
   const router = JSONServer.router(data);
