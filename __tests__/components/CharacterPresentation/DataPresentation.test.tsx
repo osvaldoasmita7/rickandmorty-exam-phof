@@ -13,13 +13,13 @@ jest.mock("next/image", () => ({
   },
 }));
 
-describe("Test to Data presentation", () => {
+describe("Test para el componente de Data presentation", () => {
   // Limpia los mocks después de cada test para que no interfieran
   afterEach(() => {
     jest.clearAllMocks();
   });
 
-  it("se renderiza correctamente con los datos de un personaje", () => {
+  it("debe de renderizar correctamente con los datos de un personaje", () => {
     const mockCharacter: Character = {
       ...CHARACTER_EMPTY,
       id: 1,

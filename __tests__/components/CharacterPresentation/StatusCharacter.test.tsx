@@ -8,7 +8,7 @@ describe("Test to Status character", () => {
     jest.clearAllMocks();
   });
 
-  it("se renderiza correctamente con los datos de un personaje", () => {
+  it("debe de renderizar correctamente con los datos de un personaje", () => {
     render(<StatusCharacter status="Alive" />);
     // Verificar que el componente Image se renderiza con las props correctas
     expect(true).toEqual(true);

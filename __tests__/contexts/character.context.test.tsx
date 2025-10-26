@@ -18,7 +18,7 @@ jest.mock("../../app/hooks", () => ({
 }));
 
 // Creamos nuestro describe
-describe("CharacterProvider context", () => {
+describe("Test para el contexto Character", () => {
   // Limpiamos los mocks
   afterEach(() => {
     jest.clearAllMocks();

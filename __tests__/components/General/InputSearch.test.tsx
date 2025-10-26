@@ -17,13 +17,13 @@ const wrapper = ({ children }: any) => (
     {children}
   </CharacterContext.Provider>
 );
-describe("first", () => {
+describe("Tests para el componente de Input search", () => {
   // Limpia los mocks después de cada test para que no interfieran
   afterEach(() => {
     jest.clearAllMocks();
   });
 
-  it("se renderiza correctamente con los favoritos", async () => {
+  it("debe de renderizar correctamente el input search", async () => {
     render(<InputSearch />, { wrapper });
     // Utiliza un `getByText` para buscar el elemento que contiene el texto "Algo".
     const element = screen.getByTestId("search");

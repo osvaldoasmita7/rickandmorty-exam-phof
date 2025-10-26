@@ -3,12 +3,12 @@ import "@testing-library/jest-dom";
 import { renderHook } from "@testing-library/react";
 import { useCharacters } from "@/app/hooks/useCharacters";
 global.fetch = jest.fn();
-describe("useCharacters hook tests", () => {
+describe("Test para el hook de useCharacters", () => {
   afterEach(() => {
     jest.clearAllMocks();
   });
 
-  it("Test get characters with params", async () => {
+  it("Debe de obtener un personaje con un parámetro", async () => {
     const { getAllCharacters } = useCharacters();
     const mockResponse = {
       data: {
@@ -33,7 +33,7 @@ describe("useCharacters hook tests", () => {
     expect(fetch).toHaveBeenCalledTimes(1);
     expect(response).toBe(mockResponse.data.results);
   });
-  it("Test get characters", async () => {
+  it("Debe de obtener personajes", async () => {
     const { getAllCharacters } = useCharacters();
     const mockResponse = {
       data: {
@@ -55,7 +55,7 @@ describe("useCharacters hook tests", () => {
     expect(fetch).toHaveBeenCalledTimes(1);
     expect(response).toBe(mockResponse.data.results);
   });
-  it("Test get empty characters", async () => {
+  it("Debe de traer vacio el arreglo de personajes", async () => {
     const { getAllCharacters } = useCharacters();
     const mockResponse = {
       data: {
@@ -74,7 +74,7 @@ describe("useCharacters hook tests", () => {
     expect(fetch).toHaveBeenCalledTimes(1);
     expect(response).toEqual([]);
   });
-  it("Test to get an error", async () => {
+  it("Debe de dar un error", async () => {
     const { getAllCharacters } = useCharacters();
     try {
       renderHook(() => useCharacters());

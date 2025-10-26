@@ -27,7 +27,7 @@ describe("ChangeCharacters component", () => {
     jest.clearAllMocks();
   });
 
-  it("llama a la función lastCharacter al hacer clic en el botón izquierdo", async () => {
+  it("Debe de llamar a la función lastCharacter al hacer clic en el botón izquierdo", async () => {
     // Renderiza el componente envuelto en el proveedor de contexto mockeado
     render(<ChangeCharacters />, { wrapper });
 
@@ -44,7 +44,7 @@ describe("ChangeCharacters component", () => {
     expect(mockNextCharacter).not.toHaveBeenCalled();
   });
 
-  it("Llama a la función nextCharacter al dar click al botón derecho", async () => {
+  it("Debe de llamar a la función nextCharacter al dar click al botón derecho", async () => {
     render(<ChangeCharacters />, { wrapper });
 
     const buttons = screen.getAllByRole("button");

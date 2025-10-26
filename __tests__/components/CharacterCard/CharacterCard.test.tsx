@@ -6,10 +6,9 @@ import { CharacterCard } from "@/app/components/CharacterCard/CharacterCard";
 import { CharacterContext } from "@/app/contexts"; // Asegúrate de que la ruta sea correcta
 import { CHARACTER_EMPTY } from "@/app/constants";
 
-// 1. Mockear el componente LikeButton
+//  Mockear el componente LikeButton
 jest.mock("../../../app/components/General/LikeButton", () => ({
   LikeButton: (props: any) => {
-    // Al hacer un mock, puedes controlar las props y simular el comportamiento
     // En este caso, llamaremos a una función mockeada en el click
     return (
       <button data-testid="like-button" onClick={() => props.onClick(true)} />
@@ -17,7 +16,7 @@ jest.mock("../../../app/components/General/LikeButton", () => ({
   },
 }));
 
-describe("CharacterCard component", () => {
+describe("Test para el componente de CharacterCard", () => {
   // Crea mocks para las funciones del contexto
   const mockAddFavorites = jest.fn();
   const mockRemoveFavorites = jest.fn();
@@ -40,7 +39,7 @@ describe("CharacterCard component", () => {
     jest.clearAllMocks();
   });
 
-  it("llama a la función addFavorites al hacer click en el botón LikeButton", async () => {
+  it("debe de llamar a la función addFavorites al hacer click en el botón LikeButton", async () => {
     const character = {
       ...CHARACTER_EMPTY,
       id: 1,

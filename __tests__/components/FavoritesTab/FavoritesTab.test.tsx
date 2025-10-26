@@ -2,7 +2,7 @@ import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
 import { FavoritesTab } from "@/app/components/FavoritesTab/FavoritesTab";
 
-describe("first", () => {
+describe("Tests para el componente de FavoriteTab", () => {
   // Limpia los mocks después de cada test para que no interfieran
   afterEach(() => {
     jest.clearAllMocks();

@@ -54,13 +54,13 @@ jest.mock("../../../app/components/ChangeCharacters/ChangeCharacters", () => ({
   )),
 }));
 
-describe("first", () => {
+describe("Tests para el componente de characterPresentation", () => {
   // Limpia los mocks después de cada test para que no interfieran
   afterEach(() => {
     jest.clearAllMocks();
   });
 
-  it("se renderiza correctamente con los datos de un personaje", () => {
+  it("debe de renderizar correctamente con los datos de un personaje", () => {
     const mockCharacter: Character = {
       ...CHARACTER_EMPTY,
       id: 1,
