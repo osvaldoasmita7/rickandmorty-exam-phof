@@ -29,8 +29,10 @@ const customJestConfig = {
     '!**/_tests_/**',
     
     // Excluye explícitamente los archivos de Next.js que no son componentes de la app
+    '!**/next-env.d.tsx',
+    '!**/next.config.tsx',
     '!**/layout.tsx',
-    '!**/page.tsx',
+    '!**/.tsx',
     '!**/app/interfaces/**',
     '!**/app/types/**',
   ],

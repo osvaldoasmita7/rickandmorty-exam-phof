@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "jest --watch --testPathIgnorePatterns='amTesting-master' --coverage",
+    "test": "jest --watchAll --testPathIgnorePatterns='amTesting-master' --coverage",
     "test-clean": "jest --watch --testPathIgnorePatterns='amTesting-master' --coverage -- --clearCache --coverage"
 
   },
