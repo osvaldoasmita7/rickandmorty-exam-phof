@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import Image from "next/image";
-import { Character } from "rickmortyapi";
+import { Character } from "@/server/dependences/amTesting-master";
 import { CharacterContext } from "@/app/contexts";
 import { IMAGE } from "@/app/constants";
 import { LikeButton } from "@/app/components/General";

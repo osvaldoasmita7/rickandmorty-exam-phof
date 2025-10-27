@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Character } from "rickmortyapi";
+import { Character } from "@/server/dependences/amTesting-master";
 
 import {
   DataPresentation,

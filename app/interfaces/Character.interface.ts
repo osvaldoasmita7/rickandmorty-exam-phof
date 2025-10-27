@@ -1,5 +1,8 @@
 import { Dispatch, SetStateAction } from "react";
-import { Character, CharacterFilter } from "rickmortyapi";
+import {
+  Character,
+  CharacterFilter,
+} from "@/server/dependences/amTesting-master";
 
 export interface CharacterPresentationCardPropsInterface {
   character: Character | null | undefined;

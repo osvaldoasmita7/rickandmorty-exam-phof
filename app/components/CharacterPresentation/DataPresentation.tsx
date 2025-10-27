@@ -1,4 +1,4 @@
-import { Character } from "rickmortyapi";
+import { Character } from "@/server/dependences/amTesting-master";
 import { CHARACTER_EMPTY, NO_DATA_CHARACTER_ENUM } from "@/app/constants";
 
 interface Props {

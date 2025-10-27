@@ -34,6 +34,7 @@ const customJestConfig = {
     '!**/layout.tsx',
     '!**/.tsx',
     '!**/app/interfaces/**',
+    '!**/server/**',
     '!**/app/types/**',
     '!**/next-env.d.ts',
     '!**/next.config.ts',

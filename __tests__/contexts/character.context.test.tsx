@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom";
 
 import { renderHook, act, waitFor } from "@testing-library/react";
-import { Character } from "rickmortyapi";
+import { Character } from "@/server/dependences/amTesting-master";
 import { CHARACTER_EMPTY } from "@/app/constants";
 import { CharacterContext, CharacterProvider } from "@/app/contexts";
 import { useContext } from "react";

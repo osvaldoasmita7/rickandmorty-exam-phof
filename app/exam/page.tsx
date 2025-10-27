@@ -1,6 +1,6 @@
 "use client";
 import { useContext, useEffect } from "react";
-import { Character } from "rickmortyapi";
+import { Character } from "@/server/dependences/amTesting-master";
 import { CharacterContext } from "@/app/contexts";
 import {
   CharacterCard,

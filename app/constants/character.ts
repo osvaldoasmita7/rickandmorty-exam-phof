@@ -1,4 +1,4 @@
-import { Character } from "rickmortyapi";
+import { Character } from "@/server/dependences/amTesting-master";
 const TYPE_EMPTY = {
   name: "",
   url: "",

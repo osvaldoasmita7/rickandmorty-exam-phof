@@ -1,5 +1,5 @@
 import "@testing-library/jest-dom";
-import { Character } from "rickmortyapi";
+import { Character } from "@/server/dependences/amTesting-master";
 import { CharacterPresentation } from "@/app/components";
 import { CHARACTER_EMPTY } from "@/app/constants";
 import { CharacterContext } from "@/app/contexts";

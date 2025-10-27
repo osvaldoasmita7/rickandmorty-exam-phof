@@ -1,6 +1,9 @@
 "use client";
 import React, { createContext, useState, useMemo } from "react";
-import { Character, CharacterFilter } from "rickmortyapi";
+import {
+  Character,
+  CharacterFilter,
+} from "@/server/dependences/amTesting-master";
 import { CHARACTER_EMPTY } from "@/app/constants";
 import { CharacterInterfaceContext } from "@/app/interfaces";
 import { useCharacters } from "@/app/hooks";

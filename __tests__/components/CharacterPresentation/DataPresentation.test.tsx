@@ -3,7 +3,7 @@ import { CharacterPresentation, DataPresentation } from "@/app/components";
 import { CHARACTER_EMPTY } from "@/app/constants";
 import { CharacterContext } from "@/app/contexts";
 import { render, screen } from "@testing-library/react";
-import { Character } from "rickmortyapi";
+import { Character } from "@/server/dependences/amTesting-master";
 // jest.setup.js
 jest.mock("next/image", () => ({
   __esModule: true,

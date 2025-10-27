@@ -2,7 +2,6 @@ import { InputSearch } from "@/app/components";
 import { CharacterContext } from "@/app/contexts";
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import { getCharacter } from "rickmortyapi";
 // Crea funciones mocks
 const mockGetCharacters = jest.fn();
 

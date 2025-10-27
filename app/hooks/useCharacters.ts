@@ -1,4 +1,4 @@
-import { CharacterFilter } from "rickmortyapi";
+import { CharacterFilter } from "@/server/dependences/amTesting-master";
 import { API } from "@/app/constants";
 
 export const useCharacters = () => {
