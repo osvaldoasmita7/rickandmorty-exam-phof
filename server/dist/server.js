@@ -6,7 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const src_1 = require("./dependences/amTesting-master/src");
 const json_server_1 = __importDefault(require("json-server"));
 async function startServer() {
-    console.log("Bien");
     const charactersResponse = await (0, src_1.getCharacters)({});
     const db = { characters: charactersResponse?.data?.results || [] };
     const server = json_server_1.default.create();
