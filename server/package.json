@@ -1,0 +1,10 @@
+{
+  "name": "rickandmorty-server",
+  "type": "commonjs", 
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

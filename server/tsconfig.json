@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",          // versión de JS de salida
+    "module": "commonjs",        // Node usa CommonJS
+    "outDir": "./dist",          // carpeta de salida de JS compilado
+    "rootDir": "./",             // desde donde toma los archivos TS
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "include": ["**/*.ts"]
+}
