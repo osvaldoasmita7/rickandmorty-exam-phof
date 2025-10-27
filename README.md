@@ -1,16 +1,37 @@
 Mtro. Osvaldo Francisco Ponce Hernández.
 
+## Acerca de
+
+El proyecto fue desarrollado usando [NextJS](https://nextjs.org/learn) de React en la versión 19.
+
+El backend se utilizó JSON-Server utilizando la dependencia de amTestingMaster, la cual, fue instalada dentro de la carpeta server/dependencias/amTesting-master y utilizada en el server/server.ts
+
 ## Primeros pasos
 
 Instalar dependencias
 es necesario tener versión 18.18.0 para instalar dependencias y luego subir a una versión superior a la 20.0.9 de node.js
 
+Primera vez al correr el proyecto:
+
+Instalamos dependencias
+
 ```bash
 npm install
-
 ```
 
-First, run the development server:
+Es requerido utilizar el siguiente comando para compilar el servidor y poder utilizarlo en el front.
+Actualmente se sube la dependencia y el dist generado para su revisión.
+
+Ubicarse dentro de la carpeta server/
+
+```bash
+# Comando para compilar y generar el dist
+npm run build
+# O bien
+npx tsc
+```
+
+Una vez realizado la dist del servidor, deberá regresar a la ruta raíz del proyecto para su posterior ejecución ../
 
 ```bash
 # Comando para iniciar backend y frontend al mismo tiempo
@@ -25,38 +46,6 @@ El backend de JSON-server se ejecutará en:
 http://localhost:4000
 
 El frontend con NextJS se ejecutará en: http://localhost:3000
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Acerca de
-
-El proyecto fue desarrollado usando [NextJS](https://nextjs.org/learn) de React en la versión 19.
-
-El backend se utilizó JSON-Server utilizando la dependencia de amTestingMaster, la cual, fue instalada dentro de la carpeta server/dependencias/amTesting-master y utilizada en el server/server.ts
-
-Es requerido utilizar el siguiente comando para compilar el servidor y poder utilizarlo en el front.
-Actualmente se sube la dependencia y el dist generado para su revisión.
-
-Ubicarse dentro de la carpeta server/
-
-```bash
-# Comando para compilar y generar el dist
-npm run build
-# O bien
-npx tsc
-```
-
-En caso de no poder compilar, se sugiere instalar dependencias de amTesting-master.
-
-Posicionarse dentro de server/dependences/amTesting-master
-
-Ejecutar:
-
-```bash
-npm run install
-```
-
-Y posteriormente, intentar generar la build
 
 ## Test
 
